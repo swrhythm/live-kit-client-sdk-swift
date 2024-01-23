@@ -27,7 +27,6 @@ let package = Package(
             name: "LiveKit",
             dependencies: [
                 .target(name: "CHeaders"),
-                "WebRTC",
                 "SwiftProtobuf",
                 .product(name: "Logging", package: "swift-log"),
             ],
